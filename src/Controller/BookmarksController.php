@@ -10,7 +10,6 @@ use App\Controller\AppController;
  */
 class BookmarksController extends AppController
 {
-    //Authorized
     public function isAuthorized($user)
     {
         $action = $this->request->params['action'];
